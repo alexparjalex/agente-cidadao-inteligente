@@ -50,6 +50,8 @@ O sistema é projetado para:
 2.  O chatbot será iniciado e você poderá interagir com ele através do console - será criado um box para inserir suas mensagens.
 3.  Faça perguntas sobre serviços sociais em uma determinada localização (de preferência a sua).
 4.  O chatbot fornecerá as informações solicitadas.  
+5. Para sair do chat, basta inserir umas dessas mensagens abaixo:
+    * `["sair", "encerrar", "fim", "tchau", "xau", "valeu", "vlw"]`
 
 Exemplo: <br>
 

